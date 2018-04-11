@@ -8,14 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func showButtonDidTap(_ sender: Any) {
-        
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let dialogViewController = storyboard?.instantiateViewController(withIdentifier: "CustomDialogViewController")
+        present(dialogViewController!, animated: true)
     }
 }
-

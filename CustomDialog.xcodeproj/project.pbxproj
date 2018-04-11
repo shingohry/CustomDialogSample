@@ -12,6 +12,7 @@
 		4581DBCC207DE861004BF534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4581DBCA207DE861004BF534 /* Main.storyboard */; };
 		4581DBCE207DE861004BF534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4581DBCD207DE861004BF534 /* Assets.xcassets */; };
 		4581DBD1207DE861004BF534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4581DBCF207DE861004BF534 /* LaunchScreen.storyboard */; };
+		4581DBD9207DE98D004BF534 /* CustomDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4581DBD8207DE98D004BF534 /* CustomDialogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4581DBCD207DE861004BF534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4581DBD0207DE861004BF534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4581DBD2207DE861004BF534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4581DBD8207DE98D004BF534 /* CustomDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4581DBC6207DE861004BF534 /* AppDelegate.swift */,
 				4581DBC8207DE861004BF534 /* ViewController.swift */,
+				4581DBD8207DE98D004BF534 /* CustomDialogViewController.swift */,
 				4581DBCA207DE861004BF534 /* Main.storyboard */,
 				4581DBCD207DE861004BF534 /* Assets.xcassets */,
 				4581DBCF207DE861004BF534 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4581DBC9207DE861004BF534 /* ViewController.swift in Sources */,
+				4581DBD9207DE98D004BF534 /* CustomDialogViewController.swift in Sources */,
 				4581DBC7207DE861004BF534 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
